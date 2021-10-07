@@ -22,7 +22,8 @@ namespace Win.Rentas
             InitializeComponent();
 
         _productos = new ProductosBL();
-            listaProductosBindingSource.DataSource = _productos.ObtenerProductos();
+
+            productoBindingSource.DataSource = _productos.ObtenerProductos();
  
          
         }

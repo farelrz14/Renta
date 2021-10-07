@@ -9,7 +9,7 @@ namespace BL.Rentas
 {
     public class ProductosBL
     {
-         public BindingList<Producto> ListaProductos{ get; set; }
+             public BindingList<Producto> ListaProductos { get; set; }
 
         public ProductosBL()
         {
