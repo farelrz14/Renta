@@ -29,5 +29,10 @@ namespace Win.Rentas
             formProductos.MdiParent = this;
             formProductos.Show();
         }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
