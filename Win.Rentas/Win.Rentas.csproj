@@ -101,6 +101,12 @@
   <ItemGroup>
     <None Include="Resources\secure.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL.Rentas\BL.Rentas.csproj">
+      <Project>{eb958bb8-f150-4d2e-9d9f-2a68e2bfea09}</Project>
+      <Name>BL.Rentas</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
